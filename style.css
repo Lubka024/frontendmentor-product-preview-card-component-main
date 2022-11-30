@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color:hsl(30, 38%, 92%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 15rem;
+
+}
