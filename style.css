@@ -12,12 +12,24 @@ main {
     justify-content: center;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 .product {
     background-color: hsl(0, 0%, 100%);
     max-width: 15rem;
-
+    margin: 2rem;
 }
 
 .product img {
     max-width: 100%;
+}
+
+.productinfo {
+    padding: 2rem;
+}
+
+.attribution {
+    display: none;
 }
