@@ -36,9 +36,9 @@ h2 {
     display: none;
 }
 
-@media screen and (min-width 800px) {
+@media screen and (min-width: 800px) {
     .product {
         grid-template-columns: 1fr 1fr;
-        background-color: red;
-    }
+        max-width: none;
+    };
 }
