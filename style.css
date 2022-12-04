@@ -9,7 +9,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
     background-color: hsl(0, 0%, 100%);
     max-width: 15rem;
     display: grid;
-    margin: 2rem;
+    margin: auto;
     grid-template-columns: 1fr;
 }
 
@@ -39,6 +40,6 @@ h2 {
 @media screen and (min-width: 800px) {
     .product {
         grid-template-columns: 1fr 1fr;
-        max-width: none;
-    };
+        max-width: 800px;
+    }
 }
