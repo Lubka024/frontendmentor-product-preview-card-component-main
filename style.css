@@ -29,6 +29,10 @@ h2 {
     max-width: 100%;
 }
 
+.productphotoDesktop {
+    display: none;
+}
+
 .productinfo {
     padding: 2rem;
 }
@@ -41,5 +45,13 @@ h2 {
     .product {
         grid-template-columns: 1fr 1fr;
         max-width: 800px;
+    }
+
+    .productphotoDesktop {
+        display: block;
+    }
+
+    .productPhotoMobile {
+        display: none;
     }
 }
