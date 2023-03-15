@@ -37,6 +37,22 @@ h2 {
     padding: 2rem;
 }
 
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    border: none;
+    border-radius: 0.125rem;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+button img {
+    margin: 0 0.1rem;
+}
+
 .attribution {
     display: none;
 }
